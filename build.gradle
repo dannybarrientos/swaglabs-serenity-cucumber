@@ -1,12 +1,15 @@
 defaultTasks 'clean', 'test', 'aggregate'
 
 repositories {
+    jcenter()
     mavenCentral()
     mavenLocal()
 }
 
+
 buildscript {
   repositories {
+    jcenter()
     maven {
       url "https://plugins.gradle.org/m2/"
     }
