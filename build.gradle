@@ -24,8 +24,8 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 
-sourceCompatibility = 17
-targetCompatibility = 17
+sourceCompatibility = 11
+targetCompatibility = 11
 
 ext {
     slf4jVersion = '1.7.7'
