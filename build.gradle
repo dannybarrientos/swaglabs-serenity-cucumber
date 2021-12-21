@@ -1,21 +1,17 @@
-defaultTasks 'clean', 'test', 'aggregate'
+efaultTasks 'clean', 'test', 'aggregate'
 
 repositories {
-    jcenter()
     mavenCentral()
-    mavenLocal()
 }
-
 
 buildscript {
   repositories {
-    jcenter()
     maven {
       url "https://plugins.gradle.org/m2/"
     }
   }
   dependencies {
-    classpath "net.serenity-bdd:serenity-gradle-plugin:3.1.4-RC1"
+    classpath "net.serenity-bdd:serenity-gradle-plugin:3.0.5"
   }
 }
 
@@ -25,13 +21,13 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 
-sourceCompatibility = 17
-targetCompatibility = 17
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 ext {
     slf4jVersion = '1.7.7'
-    serenityCoreVersion = '3.1.4'
-    serenityCucumberVersion = '3.1.4'
+    serenityCoreVersion = '3.0.2'
+    serenityCucumberVersion = '3.0.2'
     junitVersion = '4.13.1'
     assertJVersion = '3.8.0'
     logbackVersion = '1.2.3'
@@ -46,13 +42,15 @@ dependencies {
             "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}",
             "junit:junit:${junitVersion}",
+            "org.junit.platform:junit-platform-launcher:1.8.1",
+            "org.junit.jupiter:junit-jupiter-engine:5.8.1",
+            "org.junit.vintage:junit-vintage-engine:5.8.1",
             "org.assertj:assertj-core:${assertJVersion}"
 }
 
 test {
-//    testLogging.showStandardStreams = true
+    testLogging.showStandardStreams = true
     systemProperties System.getProperties()
-    maxParallelForks = 8
 }
 
 gradle.startParameter.continueOnFailure = true
