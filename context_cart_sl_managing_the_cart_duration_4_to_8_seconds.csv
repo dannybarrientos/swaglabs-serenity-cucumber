@@ -1,5 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Managing the cart","Colin adds an item to the cart","SUCCESS","2021-12-22T04:00:48.107277998Z[Etc/UTC]","0.0","7.29"
-"Managing the cart","Colin adds several items to the cart","SUCCESS","2021-12-22T04:00:55.955854178Z[Etc/UTC]","0.0","7.48"
-"Managing the cart","Colin removes an item from the cart on the product catalog page 2","SUCCESS","2021-12-22T04:01:03.495886569Z[Etc/UTC]","0.0","5.54"
-"Managing the cart","Colin removes an item from the cart overview","SUCCESS","2021-12-22T04:01:09.054096131Z[Etc/UTC]","0.0","4.33"
+"Managing the cart","Colin adds an item to the cart","SUCCESS","2021-12-22T04:02:43.993421964Z[Etc/UTC]","0.0","7.7"
+"Managing the cart","Colin adds several items to the cart","SUCCESS","2021-12-22T04:02:52.229485049Z[Etc/UTC]","0.0","5.64"
+"Managing the cart","Colin removes an item from the cart on the product catalog page 2","SUCCESS","2021-12-22T04:02:57.914568304Z[Etc/UTC]","0.0","4.82"
