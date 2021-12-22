@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login","Colin logs in with valid credentials","SUCCESS","2021-12-22T04:11:13.896527745Z[Etc/UTC]","0.0","25.59"
-"Login","Login on with invalid credentials","SUCCESS","2021-12-22T04:11:40.176309513Z[Etc/UTC]","0.0","20.08"
+"Login","Colin logs in with valid credentials","SUCCESS","2021-12-22T04:13:49.079406577Z[Etc/UTC]","0.0","34.41"
+"Login","Login on with invalid credentials","SUCCESS","2021-12-22T04:14:23.973455361Z[Etc/UTC]","0.0","26.02"

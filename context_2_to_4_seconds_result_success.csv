@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Completing a purchase","Colin purchases two items and sees them both appear in the purchase summary","SUCCESS","2021-12-22T04:12:09.660324938Z[Etc/UTC]","0.0","3.62"
-"Completing a purchase","Colin confirms his order and is told that the items have been dispatched","SUCCESS","2021-12-22T04:12:13.292929569Z[Etc/UTC]","0.0","3.3"
-"Calculating sales tax","Colin purchases two items so the total tax calculated includes tax for both items","SUCCESS","2021-12-22T04:11:45.951043095Z[Etc/UTC]","0.0","3.61"
+"Managing the cart","Colin removes an item from the cart overview","SUCCESS","2021-12-22T04:15:12.079312485Z[Etc/UTC]","0.0","2.54"
+"Managing the cart","Colin views the details of a product and adds it to his cart 2","SUCCESS","2021-12-22T04:15:14.630734625Z[Etc/UTC]","0.0","2.36"
+"Managing the cart","Colin sees every item he has added in the cart","SUCCESS","2021-12-22T04:15:17.005295042Z[Etc/UTC]","0.0","2.51"
+"Completing a purchase","Colin confirms his order and is told that the items have been dispatched","SUCCESS","2021-12-22T04:15:06.32468201Z[Etc/UTC]","0.0","3.73"
