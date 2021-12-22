@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Managing the cart","Colin adds ignored items to the cart","IGNORED","2021-12-22T04:02:51.72017917Z[Etc/UTC]","0.0","0.16"
-"Managing the cart","Colin adds pending items to the cart","PENDING","2021-12-22T04:02:51.89909509Z[Etc/UTC]","0.0","0.18"
-"Managing the cart","Colin adds skipped items to the cart","SKIPPED","2021-12-22T04:02:52.111919108Z[Etc/UTC]","0.0","0.09"
+"Managing the cart","Colin adds ignored items to the cart","IGNORED","2021-12-22T04:12:07.970764735Z[Etc/UTC]","0.0","0.1"
+"Managing the cart","Colin adds pending items to the cart","PENDING","2021-12-22T04:12:08.106367169Z[Etc/UTC]","0.0","0.11"
+"Managing the cart","Colin adds skipped items to the cart","SKIPPED","2021-12-22T04:12:08.254735218Z[Etc/UTC]","0.0","0.14"

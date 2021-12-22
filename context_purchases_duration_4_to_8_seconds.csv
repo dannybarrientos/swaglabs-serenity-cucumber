@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Completing a purchase","Colin purchases two items and sees them both appear in the purchase summary","SUCCESS","2021-12-22T04:02:53.879143541Z[Etc/UTC]","0.0","4.7"
-"Completing a purchase","Colin confirms his order and is told that the items have been dispatched","SUCCESS","2021-12-22T04:02:58.629543461Z[Etc/UTC]","0.0","4.09"
