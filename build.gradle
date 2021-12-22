@@ -14,6 +14,65 @@ buildscript {
     }
   }
   dependencies {
+    classpath "net.serenity-bdd:serenity-gradle-plugin:3.1.4-RC1"
+  }
+}
+
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+ext {
+    slf4jVersion = '1.7.7'
+    serenityCoreVersion = '3.1.4'
+    serenityCucumberVersion = '3.1.4'
+    junitVersion = '4.13.1'
+    assertJVersion = '3.8.0'
+    logbackVersion = '1.2.3'
+}
+
+dependencies {
+    implementation "ch.qos.logback:logback-classic:${logbackVersion}"
+
+    testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-cucumber:${serenityCucumberVersion}",
+            "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}",
+            "junit:junit:${junitVersion}",
+            "org.assertj:assertj-core:${assertJVersion}"
+}
+
+test {
+//    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+    maxParallelForks = 8
+}
+
+gradle.startParameter.continueOnFailure = true
+
+test.finalizedBy(aggregate)
+defaultTasks 'clean', 'test', 'aggregate'
+
+repositories {
+    jcenter()
+    mavenCentral()
+    mavenLocal()
+}
+
+buildscript {
+  repositories {
+    jcenter()
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
     classpath "net.serenity-bdd:serenity-gradle-plugin:3.1.0"
   }
 }
