@@ -120,7 +120,7 @@
                         <include>**/*Suite.java</include>
                     </includes>
                     <parallel>classesAndMethods</parallel>
-<!--                    <threadCount>8</threadCount>-->
+<!--                 <threadCount>8</threadCount>-->
 <!--                    <useUnlimitedThreads>true</useUnlimitedThreads>-->
                     <forkCount>8</forkCount>
                 </configuration>
