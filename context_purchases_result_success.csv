@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Completing a purchase","Colin enters incomplete name and address info","SUCCESS","2021-12-22T04:13:49.732285335Z[Etc/UTC]","0.0","71.62"
-"Completing a purchase","Colin purchases two items and sees them both appear in the purchase summary","SUCCESS","2021-12-22T04:15:01.377578161Z[Etc/UTC]","0.0","4.93"
-"Completing a purchase","Colin confirms his order and is told that the items have been dispatched","SUCCESS","2021-12-22T04:15:06.32468201Z[Etc/UTC]","0.0","3.73"
+"Completing a purchase","Colin enters incomplete name and address info","SUCCESS","2021-12-22T04:28:45.144067395Z[Etc/UTC]","0.0","58.15"
+"Completing a purchase","Colin purchases two items and sees them both appear in the purchase summary","SUCCESS","2021-12-22T04:29:43.298420583Z[Etc/UTC]","0.0","3.73"
+"Completing a purchase","Colin confirms his order and is told that the items have been dispatched","SUCCESS","2021-12-22T04:29:47.05066447Z[Etc/UTC]","0.0","3.05"
